@@ -1,0 +1,8 @@
+[
+    {"id": 100, "name" : "gokul" , "designation": "trainee"},
+    {"id": 200, "name" : "rahul" , "designation": "trainee"},
+    {"id": 300, "name" : "ram" , "designation": "trainee"},
+    {"id": 400, "name" : "tom" , "designation": "super senior"},
+    {"id": 500, "name" : "arjun" , "designation": "senior"}
+
+]
