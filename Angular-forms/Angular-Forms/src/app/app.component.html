@@ -1,33 +1,73 @@
 <div class="container-fluid">
   <h1>Registration Form</h1>
-  <form #userform=ngForm>
+  <!-- {{User |json}} -->
+  <form #userform=ngForm (ngSubmit)="onsubmit()">
+
     <div class="form-group">
       <label>Name</label>
-      <input type="text" class="form-control" name="fname" ngModel>
+      <input type="text" class="form-control" name="fname" #fname="ngModel"
+      [class.is-invalid]="fname.invalid && fname.touched"
+      [(ngModel)]="User.fname" required>
+      <small class="text-danger" [class.d-none]="fname.valid || fname.untouched">Enter a First Name</small>
+
     </div>
     
     <div class="form-group">
       <label>Last Name</label>
-      <input type="text" class="form-control" name="lname" ngModel>
+      <input type="text" class="form-control" name="lname" #lname="ngModel"
+      [class.is-invalid]="lname.invalid && lname.touched"
+      [(ngModel)]="User.lname" required>
+      <small class="text-danger" [class.d-none]="lname.valid || lname.untouched">Enter a Last Name</small>
     </div>
+
     <div class="form-group">
       <label>Email</label>
-      <input type="email" class="form-control" name="email" ngModel>
+      <input type="email" class="form-control" name="email" #email="ngModel"
+      [class.is-invalid]="email.invalid && email.touched"
+      [(ngModel)]="User.email" required>
+      <small class="text-danger" [class.d-none]="email.valid || email.untouched">Enter a valid email address</small>
+    </div>
+
+    <div class="form-group">
+      <label>Mobile NO</label>
+      <input type="number" class="form-control" name="mob" #mobile="ngModel"
+      [class.is-invalid]="mobile.invalid && mobile.touched" pattern="^\d{10}$"
+      [(ngModel)]="User.mobile" required>
+      <small class="text-danger" [class.d-none]="mobile.valid || mobile.untouched">Mobile number is required and must be 10 digits</small>
+
     </div>
 
     <div class="form-group">
       <label>Username</label>
-      <input type="text" class="form-control" name="uname" ngModel>
+      <input type="text" class="form-control" name="uname"
+      #uname="ngModel"
+      [class.is-invalid]="uname.invalid && uname.touched"
+      [(ngModel)]="User.username" required>
+      <small class="text-danger" [class.d-none]="uname.valid || uname.untouched">Enter a Username</small>
+
     </div>
+
     <div class="form-group">
       <label>Password</label>
-      <input type="password" class="form-control" name="pwd" ngModel>
+      <input type="password" class="form-control" name="pwd"
+      #pswd="ngModel"
+      [class.is-invalid]="pswd.invalid && pswd.touched"
+      [(ngModel)]="User.password" required>
+      <small class="text-danger" [class.d-none]="pswd.valid || pswd.untouched"> Password</small>
+
     </div>
+
     <div class="form-group">
       <label>Confirm Password</label>
-      <input type="password" class="form-control" name="pwd1" ngModel>
+      <input type="password" class="form-control" name="pwd1"
+      #pswd1="ngModel"
+      [class.is-invalid]="pswd1.invalid && pswd1.touched"
+      [(ngModel)]="User.conpassword" required>
+      <small class="text-danger" [class.d-none]="pswd1.valid || pswd1.untouched">Confirm Password</small>
+
     </div>
-    <button class="btn btn-primary" type="submit"> Register</button>
+
+    <button class="btn btn-primary" type="submit" [disabled]="userform.form.invalid"> Register</button>
     <button class="btn btn-danger" type="reset"> Clear </button>
 <!-- you can see te objects entering in the form down here -->
     <!-- {{ userform.value|json}} -->
@@ -35,11 +75,5 @@
 
 
 </div>
-
-
-
-
-
-
 
 <!-- <router-outlet></router-outlet> -->
