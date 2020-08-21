@@ -6,7 +6,7 @@ import { from } from 'rxjs';
   providedIn: 'root'
 })
 export class RegisterService {
-  url = '';
+  url = 'http//localhost:9100/register';
   constructor(private http : HttpClient) { }
 
   register(user:UserData){
