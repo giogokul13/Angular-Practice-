@@ -3,20 +3,40 @@
   <form [formGroup]="regformgroup">
   <div class="form-group">
     <label >Username</label>
-    <input type="text" name="uname" id="uname" class="form-control" formControlName="uname">
+    <input type="text" name="uname" id="uname" class="form-control" formControlName="uname"
+    [class.is-invalid]="uname.invalid && uname.touched">
+    <div *ngIf="uname.invalid && uname.touched">
+      <small *ngIf="uname.errors?.required" class="text-danger"> Username is required </small>
+      <small *ngIf="uname.errors?.minlength" class="text-danger"> Username must be atleast 5 characters </small>
+    </div>
   </div>
 
   <div class="form-group">
     <label >Password</label>
-    <input type="password" name="pswd" id="pswd" class="form-control" formControlName="password">
+    <input type="password" name="pswd" id="pswd" class="form-control"
+    [class.is-invalid]="pwd.invalid && pwd.touched"
+    formControlName="password">
+    <div *ngIf="pwd.invalid && pwd.touched">
+      <small *ngIf="pwd.errors?.required" class="text-danger"> Password is required </small>
+      <small *ngIf="pwd.errors?.minlength" class="text-danger"> Password must be atleast 8 characters </small>
+    </div>
   </div>
 
   <div class="form-group">
     <label >Confirm Password</label>
-    <input type="password" name="pswd1" id="pswd1" class="form-control" formControlName="confirmpassword">
+    <input type="password" name="pswd1" id="pswd1" class="form-control" 
+    [class.is-invalid]="pwd1.invalid && pwd1.touched"
+    formControlName="confirmpassword">
+    <div *ngIf="pwd1.invalid && pwd1.touched">
+      <small *ngIf="pwd1.errors?.required" class="text-danger"> Confirm Password is required </small>
+      <small *ngIf="pwd1.errors?.minlength" class="text-danger"> Confirm Password must be same as Password </small>
+    </div>
   </div>
 
   <button class="btn btn-primary">Register</button>
+  <!-- <button class="btn btn-success ml-3" (click)="loaddata()" > Load Dummy Data</button> -->
+
+  <!-- {{regformgroup.value | json}} -->
 </form>
 
 
