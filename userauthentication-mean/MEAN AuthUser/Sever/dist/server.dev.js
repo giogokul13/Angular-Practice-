@@ -6,6 +6,10 @@ var bodyparser = require('body-parser');
 
 var app = express();
 app.use(bodyparser.json());
+
+var api = require('./Routes/Routesapi');
+
+app.use('/user', api);
 app.get('/', function (req, res) {
   res.send(" hi this message is from server");
 });
