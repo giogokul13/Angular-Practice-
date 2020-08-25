@@ -7,7 +7,7 @@ var bodyparser = require('body-parser');
 var app = express();
 app.use(bodyparser.json());
 
-var api = require('./Routes/Routesapi');
+var api = require('./Routes/RoutesAPI');
 
 app.use('/user', api);
 app.get('/', function (req, res) {
