@@ -1,1 +1,28 @@
-<p>register works!</p>
+<div class="container-fluid">
+<h2>Registeration</h2>
+<form class="form">
+  <div class="form-group">
+    <label>Full Name</label>
+    <input [(ngModel)]="registerUserData.fname" type="text" name="fname" class="form-control" required>
+  </div>
+  <div class="form-group">
+    <label>Email Id</label>
+    <input [(ngModel)]="registerUserData.email" type="email" name="email" class="form-control" required>
+  </div>
+  <div class="form-group">
+    <label>Username</label>
+    <input [(ngModel)]="registerUserData.username" type="text" name="uname" class="form-control" required>
+  </div>
+  <div class="form-group">
+    <label>Password</label>
+    <input [(ngModel)]="registerUserData.password" type="password" name="pwd" class="form-control" required>
+  </div>
+  <div class="form-group">
+    <label>Confirm Password</label>
+    <input  [(ngModel)]="pwd1" type="password" name="pwd1" class="form-control" required>
+  </div>
+  <button (click)="registerUser();" type="button" class="btn btn-primary">Register</button> 
+  <a routerLink ="/login">Already have an account ?</a>
+</form>
+
+</div>
