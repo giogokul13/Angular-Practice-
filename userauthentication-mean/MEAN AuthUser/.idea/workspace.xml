@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="383de66f-7d4a-4645-a113-e1fe6a69f942" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Angular-forms/reactive-forms/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular-forms/reactive-forms/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../angular-10-registration-login-example-master/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../angular-10-registration-login-example-master/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../angular-10-registration-login-example-master/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../angular-10-registration-login-example-master/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sever/Models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sever/Models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/tsconfig.base.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1gcwUoswa2QmTmtzQEthU1J0E1g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="383de66f-7d4a-4645-a113-e1fe6a69f942" name="Default Changelist" comment="" />
+      <created>1598427206607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598427206607</updated>
+      <workItem from="1598427207778" duration="9918000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1598428669864">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598428669864" />
+  </component>
+</project>

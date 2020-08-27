@@ -42,6 +42,7 @@ export class AppComponent {
     uname : ['',[Validators.required,Validators.minLength(5)]],
     password : ['',[Validators.required,Validators.minLength(8)]],
     confirmpassword : ['',[Validators.required,Validators.minLength(8)]]
+    
   });
-
+     
 }

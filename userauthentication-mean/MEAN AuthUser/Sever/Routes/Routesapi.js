@@ -26,12 +26,12 @@ router.get('/',function(req,res){
 //         res.status(401);
 //         res.send("UnAuthorized request");
 //     }
-//     let token = req.Headers.Authorization.split(' ')[1]
+//     let token = req.Headers.Arequest");
+// //     }
+// //     let payload = jwt.verify(tokuthorization.split(' ')[1]
 //     if(token === 'null'){
 //         res.status(401);
-//         res.send("UnAuthorized request");
-//     }
-//     let payload = jwt.verify(token,'secretkey')
+//         res.send("UnAuthorized en,'secretkey')
 //     if(!payload){
 //         res.status(401);
 //         res.send("UnAuthorized request");
