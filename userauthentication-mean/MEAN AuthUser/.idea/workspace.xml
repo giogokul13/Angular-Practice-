@@ -20,42 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383de66f-7d4a-4645-a113-e1fe6a69f942" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Angular-forms/reactive-forms/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular-forms/reactive-forms/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../angular-10-registration-login-example-master/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../angular-10-registration-login-example-master/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../angular-10-registration-login-example-master/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../angular-10-registration-login-example-master/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sever/Models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sever/Models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/tsconfig.base.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MEAN-userauth/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sever/Routes/Routesapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sever/Routes/Routesapi.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +44,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="G:\GIT\Angular-Practice-\userauthentication-mean\MEAN AuthUser\Frontend\node_modules\typescript\lib" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,6 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598427206607</updated>
       <workItem from="1598427207778" duration="9918000" />
+      <workItem from="1598872832318" duration="923000" />
+      <workItem from="1598930007964" duration="1521000" />
     </task>
     <servers />
   </component>
@@ -104,6 +73,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="425" y="187" key="run.anything.popup" timestamp="1598428669864">

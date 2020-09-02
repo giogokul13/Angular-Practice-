@@ -21,24 +21,24 @@ router.get('/',function(req,res){
 })
 
 
-// function verifyToken(req,res,next){
-//     if(!req.headers.Authorization){
-//         res.status(401);
-//         res.send("UnAuthorized request");
+function verifyToken(req,res,next){
+    if(!req.headers.Authorization){
+        res.status(401);
+        res.send("UnAuthorized request");
+    }
+    let token = req.Headers.request");
 //     }
-//     let token = req.Headers.Arequest");
-// //     }
-// //     let payload = jwt.verify(tokuthorization.split(' ')[1]
-//     if(token === 'null'){
-//         res.status(401);
-//         res.send("UnAuthorized en,'secretkey')
-//     if(!payload){
-//         res.status(401);
-//         res.send("UnAuthorized request");
-//     }
-//     req.userId = payload.subject
-//     next()
-// }
+//     let payload = jwt.verify(tokuthorization.split(' ')[1]
+    if(token === 'null'){
+        res.status(401);
+        res.send("UnAuthorized en,'secretkey')
+    if(!payload){
+        res.status(401);
+        res.send("UnAuthorized request");
+    }
+    req.userId = payload.subject
+    next()
+}
 
 router.post('/register',function(req,res){
     let userdata = req.body;
